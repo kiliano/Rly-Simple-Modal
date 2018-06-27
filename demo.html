@@ -43,11 +43,11 @@
 <body>
 
 	<h2>
-		Importando o Plugin
+		Plugin Installation
 	</h2>
 
 	<p>
-		Para importar o plugin de Popup, basta copiar a pasta <i>"rly-simple-modal"</i> e fazer as chamadas:
+		To import the Popup plugin, simply copy the <i> "rly-simple-modal" </ i> folder and paste that:
 	</p>
 
 	<textarea name="" id="" cols="30" rows="10" style="width: 100%; height: 50px;">
@@ -55,60 +55,63 @@
 <script src="rly-simple-modal/script.min.js"></script>
 	</textarea>
 
-	<p>Lembrando que é necessário ter o Jquery no projeto.</p>
+	<p>Jquery Required*</p>
 
 <div class="rly-linha"></div>
 
 	<h2>
-		Criando o Html do Modal
+		Creating Html Modal
 	</h2>
 
 	<p>
-		Copie o template abaixo e cole onde você quer que o modal abra (normalmente o footer)
+		Copy the template below and paste where you want (usually the footer)
 	</p>
 
 	<textarea name="" id="" cols="30" rows="10" style="width: 100%; height: 230px;">
 <!-- Modal -->
-<div id="rly-popup-id-00" class="rly-popups-item-box" popupsalvar="salvar" popupabrir="sim">
+<div id="rly-popup-id-00" class="rly-popups-item-box" popupsalvar="save" popupabrir="yeap">
 	<div class="rly-popups-item">
-		<!-- Conteúdo do Modal -->
+		<!-- Modal Content -->
 		<a href="#">
 			<img src="https://docs.degraupublicidade.com.br/wp-content/uploads/2018/05/popup2.jpg" alt="Esse é um Popup">
 		</a>
-		<!-- / Conteúdo do Modal -->
+		<!-- / Modal Content -->
 	</div>
 </div>
 <!-- /Modal -->
 	</textarea>
 
 	<p>
-		Agora é fácil, só alterar o conteúdo que está entre os comentários <i>"Conteúdo do Modal"</i> e pronto. Modal funcionando. 
-		É recomendado que seja trocado o ID do modal, para evitar conflitos com outros futuros modals.
+		Now it's easy, just change the content that is between the <i> "Modal Content" </ i> comments and done. Modal working.
+		It is recommended change the ID to avoid conflicts.
 	</p>
 
 <div class="rly-linha"></div>
 
 <h2>
-	Configuração Avançada
+	Configs
 </h2>
 
 <p>
-	Podemos ainda alterar algumas configurações do modal para aproveita-lo melhor.
+	We can also change some modal settings fot better experience.
 </p>
 
 <ol>
-	<li>Por padrão, o modal está programado para salvar no <b>local storage</b> sempre que o usuário clicar no botão de fechar ou dentro de algum link. Isso faz com que o popup seja aberto apenas 1 vez. Para que o modal seja exibido sempre que o usuário entre na página, basta remover o conteúdo do atributo <i>"popupsalvar"</i>.</li>
+	<li>
+		By default, the modal save on the <b> local storage </b> whenever the user clicks the close button or within a link. This causes the popup to open only once. For the modal to be displayed whenever the user enters the page, simply remove the contents of the <i> "popupsave" </i> attribute.
+	</li>
 
 	<li>
-		Caso você queira tirar o Popup do ar ou faze-lo não ser exibido automaticamente, basta mudar o atributo <i>"popupabrir"</i> de <i>sim</i> para <i><b>nao</b></i>.
+		If you want Popup don't show automatically, simply change the attribute <i>"popupabrir"</i> to <i>nope</i>
 	</li>
+
 	<li>
-		Você pode escolher abrir o modal com uma chamada, em vez de faze-lo abrir automaticamente. <a href="#rly-popup-id-0">Experimente clicando aqui</a>. Para fazer esse efeito, basta colocar o <i>href</i> de algum link apontando para a âncora do ID do modal que foi criado (nesse caso, <i>href="#rly-popup-id-0"</i>)
+		You can choose to open the modal with a call instead of having it open automatically. <a href="#rly-popup-id-0">Try click here</a>. To do that just create a <i>"a"</i> and put the ID of modal in <i>href</i>. Like: <i>href="#rly-popup-id-0"</i>
 	</li>
 </ol>
 
 <div class="rly-linha"></div>
-<p><a href="https://github.com/kiliano/Rly-Simple-Modal">Git</a></p>
+<p><a href="https://github.com/kiliano/Rly-Simple-Modal" target="_blank">Git</a></p>
 
 
 
@@ -117,13 +120,13 @@
 <!-- Popup da Demo -->
 
 	<!-- Modal -->
-	<div id="rly-popup-id-0" class="rly-popups-item-box" popupsalvar="salvar" popupabrir="sim">
+	<div id="rly-popup-id-0" class="rly-popups-item-box" popupsalvar="save" popupabrir="yeap">
 		<div class="rly-popups-item">
-			<!-- Conteúdo do Modal -->
+			<!-- Modal Content -->
 			<a href="#">
 				<img src="https://docs.degraupublicidade.com.br/wp-content/uploads/2018/05/popup2.jpg" alt="Esse é um Popup">
 			</a>
-			<!-- / Conteúdo do Modal -->
+			<!-- / Modal Content -->
 		</div>
 	</div>
 	<!-- /Modal -->

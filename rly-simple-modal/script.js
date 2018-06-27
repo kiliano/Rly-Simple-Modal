@@ -18,7 +18,7 @@ jQuery(function() {
 			if (dgpPopupsIdValor == 1) {
 			} else {
 
-				if (dgpPopupsAuto == 'nao') {
+				if (dgpPopupsAuto == 'nope') {
 					
 				}
 				else {
