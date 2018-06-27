@@ -9,7 +9,7 @@ To import the Popup plugin, simply copy the "rly-simple-modal" folder and paste 
 ```
 Jquery Required*
 
-##Creating Html Modal##
+## Creating Html Modal ##
 Copy the template below and paste where you want (usually the footer)
 
 ```
@@ -28,7 +28,7 @@ Copy the template below and paste where you want (usually the footer)
 
 Now it's easy, just change the content that is between the "Modal Content" comments and done. Modal working. It is recommended change the ID to avoid conflicts.
 
-##Configs##
+## Configs ##
 We can also change some modal settings fot better experience.
 
 By default, the modal save on the local storage whenever the user clicks the close button or within a link. This causes the popup to open only once. For the modal to be displayed whenever the user enters the page, simply remove the contents of the "popupsave" attribute.
