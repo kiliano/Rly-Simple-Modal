@@ -3,16 +3,16 @@
 ## Plugin Installation ##
 To import the Popup plugin, simply copy the "rly-simple-modal" folder and paste that:
 
- 
+```
 <link rel="stylesheet" href="rly-simple-modal/style.min.css">
 <script src="rly-simple-modal/script.min.js"></script>
-	
+```
 Jquery Required*
 
 ##Creating Html Modal##
 Copy the template below and paste where you want (usually the footer)
 
-
+```
 <!-- Modal -->
 <div id="rly-popup-id-00" class="rly-popups-item-box" popupsalvar="save" popupabrir="yeap">
 	<div class="rly-popups-item">
@@ -24,7 +24,8 @@ Copy the template below and paste where you want (usually the footer)
 	</div>
 </div>
 <!-- /Modal -->
-	
+```
+
 Now it's easy, just change the content that is between the "Modal Content" comments and done. Modal working. It is recommended change the ID to avoid conflicts.
 
 ##Configs##
